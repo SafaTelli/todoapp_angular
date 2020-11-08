@@ -1,0 +1,12 @@
+<form #formulaire="ngForm">
+
+  <label for="name">Name</label>
+  <input id="name" ngModel name ="name" class="form-control">
+
+  <label for="content">Content</label>
+  <input id="content"  ngModel name ="content" class="form-control">
+
+  <br>
+  <button [disabled]="formulaire.invalid" class="btn btn-primary" (click)="addTodo(formulaire.value)">ADD TODO</button>
+
+</form>
