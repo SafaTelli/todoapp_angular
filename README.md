@@ -1,5 +1,8 @@
 # TpAngular
 
+![cv](https://user-images.githubusercontent.com/22858188/99685520-f89bb080-2a82-11eb-8ab9-b44ad9ae4c65.PNG)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
 
 ## Development server
