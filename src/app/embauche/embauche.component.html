@@ -1,0 +1,10 @@
+
+<h2 style="margin: 20px">EMBAUCHE LIST</h2>
+
+<div *ngIf="personnes">
+  <span *ngFor="let personne of personnes">
+      <img class="rounded-circle" src="assets/images/{{personne.path}} " width="150px"
+           height="150px">{{personne.name}}
+
+  </span>
+</div>

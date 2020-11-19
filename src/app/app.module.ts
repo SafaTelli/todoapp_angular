@@ -7,6 +7,11 @@ import { AddToDoComponent } from './add-to-do/add-to-do.component';
 import {FormsModule} from '@angular/forms';
 import { ListtodoComponent } from './listtodo/listtodo.component';
 import { TodoItemComponent } from './todo-item/todo-item.component';
+import { CvComponent } from './cv/cv.component';
+import { DetailsCvComponent } from './details-cv/details-cv.component';
+import { ListCvComponent } from './list-cv/list-cv.component';
+import { EmbaucheComponent } from './embauche/embauche.component';
+import { ItemCvComponent } from './item-cv/item-cv.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +19,12 @@ import { TodoItemComponent } from './todo-item/todo-item.component';
     TodoComponent,
     AddToDoComponent,
     ListtodoComponent,
-    TodoItemComponent
+    TodoItemComponent,
+    CvComponent,
+    DetailsCvComponent,
+    ListCvComponent,
+    EmbaucheComponent,
+    ItemCvComponent
   ],
     imports: [
         BrowserModule,

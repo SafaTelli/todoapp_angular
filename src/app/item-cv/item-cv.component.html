@@ -1,0 +1,19 @@
+<li>
+  <div class="card" (click)="selectPersonne()">
+    <div class="card-body">
+      <div class="row">
+        <div class="col col-md-2">
+          <img src="assets/images/{{personne.path}}" style="width: 80px;height: 80px">
+        </div>
+
+      <div class="col col-md-8">
+        <h5 class="card-title">{{personne.name}}</h5>
+        <p class="card-text">{{personne.job}}</p>
+      </div>
+        <div class="col col-md-2">
+        <button class="btn btn-danger" (click)="deletePersonne(personne)">Delete</button>
+        </div>
+      </div>
+      </div>
+    </div>
+</li>
