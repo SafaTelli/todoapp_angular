@@ -12,6 +12,7 @@ import { DetailsCvComponent } from './details-cv/details-cv.component';
 import { ListCvComponent } from './list-cv/list-cv.component';
 import { EmbaucheComponent } from './embauche/embauche.component';
 import { ItemCvComponent } from './item-cv/item-cv.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,9 @@ import { ItemCvComponent } from './item-cv/item-cv.component';
   ],
     imports: [
         BrowserModule,
-        FormsModule
+        FormsModule,
+        HttpClientModule,
+
     ],
   providers: [],
   bootstrap: [AppComponent]
