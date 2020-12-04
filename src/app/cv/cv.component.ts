@@ -14,15 +14,14 @@ export class CvComponent implements OnInit {
   constructor(private cvService: CvService) { }
 
   ngOnInit(): void {
-    this.cvService.getPersonnes().subscribe((personnes) =>
-    {
-      this.personnes = personnes;
-    },
-    (error) => {
+    this.cvService.getPersonnes().subscribe((personnes) => {
+        this.personnes = personnes;
+      },
+      (error) => {
         this.personnes = this.cvService.getFakePersonnes();
-    });
-  }
+      });
 
+  }
 
   // tslint:disable-next-line:typedef
   selectPersonne(selectedPersonne)
